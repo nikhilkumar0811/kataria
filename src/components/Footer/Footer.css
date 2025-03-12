@@ -1,0 +1,226 @@
+@media (min-width: 768px) {
+    .page-footer {
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+    }
+}
+.page-footer {
+    --tw-bg-opacity: 1;
+    background-color: rgba(247, 247, 247, var(--tw-bg-opacity));
+    padding: 2.5rem 1rem 1.75rem;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    width: 100%;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-top: calc(var(--bs-gutter-y)* -1);
+}
+@media (min-width: 768px) {
+    .col-md-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+}
+
+
+
+.footer-links-us {
+    margin-bottom: 40px;
+    margin-left: 30px;
+    
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.page-footer h6 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+}
+.footer-list {
+    display: flex
+;
+    flex-direction: column;
+}
+.footer-list a {
+    font-size: 13px;
+    margin: 0 0 11px;
+}
+.footer-list label {
+    color: #2e2e2e;
+    cursor: pointer;
+}
+
+
+
+
+
+label {
+    display: inline-block;
+}
+.footer-list a {
+    font-size: 13px;
+    margin: 0 0 11px;
+}
+.footer-list label {
+    color: #2e2e2e;
+    cursor: pointer;
+}
+/* @media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+} */
+
+
+
+
+
+.footer-pat-icons-main-con {
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-top: calc(var(--bs-gutter-y)* -1);
+}
+
+.footer-pat-icons-main-con {
+    width: 70%;
+} 
+ .col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.footer-pat-icons-con, .footer-pat-icons-con img {
+    height: 100%;
+    align-items: center;
+    display: flex
+;
+    justify-content: center;
+    margin-bottom: 10px;
+    max-height: 25px;
+    width: 100%;
+} 
+
+
+
+
+
+
+.footer-pat-icons-con img {
+    max-height: 40px;
+    height: 100%;
+    max-width: max-content;
+    width: 100%;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.footer-pat-icons-con, .footer-pat-icons-con img {
+    height: 100%;
+    max-width: max-content;
+    
+    width: 100%;
+}
+.footer-pat-icons-con {
+    align-items: center;
+    display: flex
+;
+    justify-content: center;
+    margin-bottom: 10px;
+    max-height: 25px;
+}
+img, svg {
+    vertical-align: middle;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+img, object, svg, video {
+    display: block;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.social-media-icon {
+    display: flex
+;
+    font-size: 27px;
+    gap: 17px;
+    margin-left: 20px;
+}
+label {
+    display: inline-block;
+}
+.social-media-icon label a {
+    color: inherit !important;
+}
+@media (min-width: 768px) {
+    .col-md-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}
+
+.all-rights-reserved {
+    display: flex
+;
+    justify-content: space-between;
+}
+.all-rights-reserved p, .footer-design-by-skdm {
+    font-size: 10px;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+}
+p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: var(--bs-secondary-color) !important;
+}
+
+.all-rights-reserved p, .footer-design-by-skdm {
+    font-size: 10px;
+} 

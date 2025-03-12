@@ -103,7 +103,8 @@ const Hero = () => {
       </div>
 
       {/* next section */}
-      {/* <section class="home-section-new-home-category">
+
+      <section class="home-section-new-home-category">
         <div class="container">
           <div class="home-section-new-home-details-con-main">
             <div class="home-section-head-main-con">
@@ -205,7 +206,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* 3rdsection */}
       <section class="mt-2">
@@ -213,16 +214,19 @@ const Hero = () => {
           <div class="home-section-head-main-con">
             <h3 class="prodcut-head-name">Elevate Your Style</h3>
           </div>
-          <div class="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
-            <div
-              className="swiper-wrapper"
-              style={{ transform: "translate3d(0px, 0px, 0px)" }}
-            >
-              <div
-                className="swiper-slide swiper-slide-active"
-                style={{ width: "286.5px", marginRight: "50px" }}
-              >
-                <a href="/product-detail-page/maroon-color-kurta-with-dupatta-daman-embroidery-work">
+        </div>
+      </section>
+
+      <section class="Home-Section-7">
+        <div class="container"></div>
+      </section>
+    </div>
+  );
+};
+
+export default Hero;
+{
+  /* <a href="/product-detail-page/maroon-color-kurta-with-dupatta-daman-embroidery-work">
                   <div class="producct-main-card-body-con">
                     <div class="producct-main-card-body">
                       <div
@@ -235,6 +239,8 @@ const Hero = () => {
                           backgroundPosition: "center center",
                         }}
                       >
+                        <img src="../../../public/Kurtapyjamajacket.jpeg" />
+
                         <a class="card-product-shop-now">Shop Now</a>
                         <div class="clothCard-product-deatils-main-con">
                           <span class="clothCard-product-title">
@@ -245,14 +251,5 @@ const Hero = () => {
                       </div>
                     </div>
                   </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-};
-
-export default Hero;
+                </a> */
+}

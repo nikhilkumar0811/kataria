@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "MAROON COLOR KURTA WITH DUPATTA AND DAMAN EMBROIDERY WORK",
+      "image": "https://skdm.in/server/kataria/api/upload/zz1.avif",
+      "price": 6027,
+      "originalPrice": 8995,
+      "discount": "33% OFF",
+      "url": "/product-detail-page/maroon-color-kurta-with-dupatta-daman-embroidery-work"
+    },
+    {
+      "id": 2,
+      "title": "RED COLOR KURTA WITH EMBROIDERY",
+      "image": "https://skdm.in/server/kataria/api/upload/z1.avif",
+      "price": 6027,
+      "originalPrice": 8995,
+      "discount": "33% OFF",
+      "url": "/product-detail-page/red-color-kurta-with-embroidery"
+    },
+    {
+      "id": 3,
+      "title": "MINT PINK COLOR OPEN JACKET KURTA SET",
+      "image": "https://skdm.in/server/kataria/api/upload/y1.avif",
+      "price": 5290,
+      "originalPrice": 7895,
+      "discount": "33% OFF",
+      "url": "/product-detail-page/mint-pink-color-open-jacket-kurta-set"
+    }
+  ]
+  
