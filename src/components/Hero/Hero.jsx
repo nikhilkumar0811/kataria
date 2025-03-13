@@ -214,11 +214,210 @@ const Hero = () => {
           <div class="home-section-head-main-con">
             <h3 class="prodcut-head-name">Elevate Your Style</h3>
           </div>
-        </div>
-      </section>
+          {/* <div class="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
+            <div
+              class="swiper-wrapper"
+              style={{
+                transform: "translate3d(0px, 0px, 0px)",
+              }}
+            >
+              <div
+                class="swiper-slide swiper-slide-active"
+                style={{
+                  width: "286.5px",
+                  marginRight: "50px",
+                }}
+              >
+                <a href="/product-detail-page/maroon-color-kurta-with-dupatta-daman-embroidery-work">
+                  <div class="producct-main-card-body-con">
+                    <div class="producct-main-card-body">
+                      <div
+                        class="main-card-product reletive"
+                        style={{
+                          backgroundImage:
+                            "url('https://skdm.in/server/kataria/api/upload/zz1.avif')",
+                          width: "100%",
+                          backgroundSize: "cover",
+                          margin: "10px 0px",
+                          backgroundPosition: "center center",
+                        }}
+                      ></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div> */}
 
-      <section class="Home-Section-7">
-        <div class="container"></div>
+          <section class="home-section-new-home-category">
+            <div class="container">
+              <div class="home-section-new-home-details-con-main">
+                <div class="home-section-second-main-new-category-con">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <div class="home-section-second-main-new-category-main-con">
+                        <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
+                          <div class="home-section-second-main-new-category-image-con">
+                            <img
+                              src="../../../public/Jodhpuri.jpeg"
+                              alt="Rajputana Sherwani"
+                            />
+                          </div>
+                          <div class="home-section-second-main-new-category-details">
+                            <div class="home-section-second-main-new-category-details-con">
+                              {/* <h2>Jodhpuri</h2> */}
+                              {/* <h3>
+                                <span>Jodhpuri</span>
+                              </h3> */}
+                              <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                <a class="card-product-shop-now">Shop Now</a>
+
+                                <div class="clothCard-product-deatils-main-con">
+                                  <span class="clothCard-product-title">
+                                    MAROON COLOR KURTA WITH DUPATTA AND DAMAN
+                                    EMBROIDERY WORK.
+                                  </span>
+                                  <div class="clothCard-product-deatils-main-con-price">
+                                    <div class="clothCard-product-deatils-main-con-mainprice">
+                                      <label> RS. 6027 INR </label>
+                                    </div>
+                                    <div class="clothCard-product-deatils-main-con-offerprice">
+                                      <label> RS. 8995 INR </label>
+                                    </div>
+                                  </div>
+                                  <div class="clothCard-product-detials-main-con-offer-per">
+                                    <h4>(33% OFF)</h4>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <div class="home-section-second-main-new-category-main-con">
+                        <a href="/product-detail-page/black-color-jacket-indowestern-set">
+                          <div class="home-section-second-main-new-category-main-con">
+                            <div class="home-section-second-main-new-category-image-con">
+                              <img src="../../../public/Indowestern.jpeg" />
+                            </div>
+                            <div class="home-section-second-main-new-category-details">
+                              <div class="home-section-second-main-new-category-details-con">
+                                {/* <h2>Indowestern</h2> */}
+                                {/* <h3>
+                                  <span>Indowestern</span>
+                                </h3> */}
+                                <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                  <a class="card-product-shop-now">Shop Now</a>
+                                  <div class="clothCard-product-deatils-main-con">
+                                    <span class="clothCard-product-title">
+                                      MAROON COLOR KURTA WITH DUPATTA AND DAMAN
+                                      EMBROIDERY WORK.
+                                    </span>
+                                    <div class="clothCard-product-deatils-main-con-price">
+                                      <div class="clothCard-product-deatils-main-con-mainprice">
+                                        <label> RS. 6027 INR </label>
+                                      </div>
+                                      <div class="clothCard-product-deatils-main-con-offerprice">
+                                        <label> RS. 8995 INR </label>
+                                      </div>
+                                    </div>
+                                    <div class="clothCard-product-detials-main-con-offer-per">
+                                      <h4>(33% OFF)</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <div class="home-section-second-main-new-category-main-con">
+                        <a href="/product/t-shirt">
+                          <div class="home-section-second-main-new-category-main-con">
+                            <div class="home-section-second-main-new-category-image-con">
+                              <img src="../../../public/Kurtapyjama.jpeg" />
+                            </div>
+                            <div class="home-section-second-main-new-category-details">
+                              <div class="home-section-second-main-new-category-details-con">
+                                {/* <h2>Kurta Pyjama</h2> */}
+                                {/* <h3>
+                                  <span>Kurta Pyjama</span>
+                                </h3> */}
+                                <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                  <a class="card-product-shop-now">Shop Now</a>
+                                  <div class="clothCard-product-deatils-main-con">
+                                    <span class="clothCard-product-title">
+                                      MAROON COLOR KURTA WITH DUPATTA AND DAMAN
+                                      EMBROIDERY WORK.
+                                    </span>
+                                    <div class="clothCard-product-deatils-main-con-price">
+                                      <div class="clothCard-product-deatils-main-con-mainprice">
+                                        <label> RS. 6027 INR </label>
+                                      </div>
+                                      <div class="clothCard-product-deatils-main-con-offerprice">
+                                        <label> RS. 8995 INR </label>
+                                      </div>
+                                    </div>
+                                    <div class="clothCard-product-detials-main-con-offer-per">
+                                      <h4>(33% OFF)</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                      <div class="home-section-second-main-new-category-main-con">
+                        <a href="/product-detail-page/teal-blue-color-velvet-kurta-with-long-jacket-set">
+                          <div class="home-section-second-main-new-category-main-con">
+                            <div class="home-section-second-main-new-category-image-con">
+                              <img src="../../../public/Kurtapyjamajacket.jpeg" />
+                            </div>
+                            <div class="home-section-second-main-new-category-details">
+                              <div class="home-section-second-main-new-category-details-con">
+                                {/* <h2>Kurta pyjama jacket</h2> */}
+                                {/* <h3>
+                                  <span>Kurta pyjama jacket</span>
+                                </h3> */}
+                                <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                  <a class="card-product-shop-now">Shop Now</a>
+                                  <div class="clothCard-product-deatils-main-con">
+                                    <span class="clothCard-product-title">
+                                      MAROON COLOR KURTA WITH DUPATTA AND DAMAN
+                                      EMBROIDERY WORK.
+                                    </span>
+                                    <div class="clothCard-product-deatils-main-con-price">
+                                      <div class="clothCard-product-deatils-main-con-mainprice">
+                                        <label> RS. 6027 INR </label>
+                                      </div>
+                                      <div class="clothCard-product-deatils-main-con-offerprice">
+                                        <label> RS. 8995 INR </label>
+                                      </div>
+                                    </div>
+                                    <div class="clothCard-product-detials-main-con-offer-per">
+                                      <h4>(33% OFF)</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </section>
     </div>
   );

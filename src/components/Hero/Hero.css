@@ -447,5 +447,74 @@ h2, .home-section-head-main-con h3 {
 
 
 
+/* section 3 */
+
+
+
+.producct-main-card-body-con {
+    align-items: center;
+    display: flex
+;
+}
+.producct-main-card-body {
+    width: 100%;
+}
+
+
+
+
+
+.card-product-shop-now {
+    background-color: #ffffffb3;
+    bottom: 0;
+    color: var(---colorBlue) !important;
+    font-family: var(---font01);
+    font-size: 17px;
+    opacity: 0;
+    padding: 10px 0;
+    position: absolute;
+    text-align: center;
+    transform: translateY(26px);
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card-product-shop-now:hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.clothCard-product-deatils-main-con {
+    margin: 15px 0;
+    text-align: center;
+}
+.clothCard-product-title {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 15px !important;
+    text-transform: uppercase;
+}
+.clothCard-product-deatils-main-con-price {
+    display: flex
+;
+    justify-content: space-evenly;
+    margin: 10px 0 0;
+}
+.clothCard-product-deatils-main-con-price label {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: red;
+
+}
+.clothCard-product-deatils-main-con-offerprice label {
+    position: relative;
+}
+.clothCard-product-deatils-main-con-price label {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
 
 /* section -7 */
