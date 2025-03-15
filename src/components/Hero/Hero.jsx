@@ -58,7 +58,6 @@ const Hero = () => {
           </svg>
         </button>
       </div>
-
       <section class="new-home-banner-section">
         {/* <a href="/collections/kurta-pajama-for-men"> */}
 
@@ -97,13 +96,10 @@ const Hero = () => {
         {/* </a> */}
       </section>
       {/* </div> */}
-
       <div className="sound-logo">
         <button id="soundToggle"></button>
       </div>
-
       {/* next section */}
-
       <section class="home-section-new-home-category">
         <div class="container">
           <div class="home-section-new-home-details-con-main">
@@ -207,7 +203,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-
       {/* 3rdsection */}
       <section class="mt-2">
         <div class="container">
@@ -419,6 +414,107 @@ const Hero = () => {
           </section>
         </div>
       </section>
+      <section class="section-icons-main">
+        <div class="container">
+          <div class="section-icons-main-details-con">
+            <div class="row">
+              <div class="col-3">
+                <div class="section-icons-details-main-con">
+                  <div class="section-icons-details-main-con-images">
+                    <div class="section-icons-details-con-images">
+                      <img
+                        src="/public/free-alteration.png"
+                        alt="free_alteration_at_store"
+                      />
+                    </div>
+                  </div>
+                  <div class="section-icons-details-info-main-con">
+                    <h3>free alteration at store</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="section-icons-details-main-con">
+                  <div class="section-icons-details-main-con-images">
+                    <div class="section-icons-details-con-images">
+                      <img
+                        src="/public/premium-quality.png"
+                        alt="free_alteration_at_store"
+                      />
+                    </div>
+                  </div>
+                  <div class="section-icons-details-info-main-con">
+                    <h3>premium quality</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="section-icons-details-main-con">
+                  <div class="section-icons-details-main-con-images">
+                    <div class="section-icons-details-con-images">
+                      <img
+                        src="/public/designer-wear-brand.png"
+                        alt="free_alteration_at_store"
+                      />
+                    </div>
+                  </div>
+                  <div class="section-icons-details-info-main-con">
+                    <h3>designer wear brand</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="section-icons-details-main-con">
+                  <div class="section-icons-details-main-con-images">
+                    <div class="section-icons-details-con-images">
+                      <img
+                        src="/public/download.png"
+                        alt="free_alteration_at_store"
+                      />
+                    </div>
+                  </div>
+                  <div class="section-icons-details-info-main-con">
+                    <h3>secure payment</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div>
+        <section class="home-section-new-home-category">
+          <div class="container">
+            <div class="home-section-new-home-details-con-main">
+              <div class="home-section-head-main-con">
+                <h3>FESTIVE HUES</h3>
+              </div>
+              <div class="home-section-second-main-new-category-con">
+                <div class="row-video d-flex">
+                  <div class="col-6-1">
+                    <div class="home-section-section-main-con-category-video-main-con">
+                      <div class="home-section-section-main-con-category-video-con">
+                        <video width="100%" height="auto" loop controls>
+                          <source src="/kataria-reel1.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6-1">
+                    <div class="home-section-section-main-con-category-video-main-con">
+                      <div class="home-section-section-main-con-category-video-con">
+                        <video width="100%" height="auto" loop controls>
+                          <source src="/kataria-reel2.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };

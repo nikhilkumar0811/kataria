@@ -3,15 +3,9 @@
         max-width: 1320px;
     }
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: calc(var(--bs-gutter-x)* .5);
-    padding-right: calc(var(--bs-gutter-x)* .5);
-    width: 100%;
-}
+
+
+
 .swiper-horizontal {
     touch-action: pan-y;
 }
@@ -25,6 +19,9 @@
     position: relative;
     z-index: 1;
 }
+
+
+
 .swiper-wrapper {
     box-sizing: initial;
     display: flex
@@ -32,8 +29,122 @@
     height: 100%;
     position: relative;
     transition-property: transform;
-    transition-timing-function: ease;
     transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
     width: 100%;
     z-index: 1;
 }
+
+.swiper-slide {
+    display: block;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    width: 100%;
+}
+.grid {
+    display: grid
+;
+}
+.testimonials.grid .item {
+    margin: 10px 20px;
+    position: relative;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.testimonials.grid .item .cont {
+    border: 10px solid #f7f7f7;
+    padding: 25px 15px 0;
+    position: relative;
+}
+p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.testimonials.grid .item .info {
+    margin-top: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+.h6, h6 {
+    font-size: 1rem;
+}
+.swiper-backface-hidden .swiper-slide {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+
+/* Testimonials.css */
+.mySwipertest {
+    height: 40vh; 
+    min-height: 10px;
+    padding: 40px 0;
+  }
+  
+  .swiper-slidetest{
+    height: auto !important;
+    display: flex !important;
+    align-items: center;
+    transition: "transform 0.5s ease-in-out", 
+
+  }
+  
+  .testimonials.grid .item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  /* Style for Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color:black; /* Change arrow color */
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for navigation buttons */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+/* Positioning */
+.swiper-button-prev {
+  left: 1px;
+}
+
+.swiper-button-next {
+  right: 1px;
+}
+/* Style for Swiper pagination */
+.swiper-pagination {
+    margin-top: 100px; 
+    margin: bottom 100px; ;/* Reduce space between content and pagination */
+  }
+  
+  /* Adjust size of pagination dots if needed */
+  .swiper-pagination-bullet {
+    width: 8px; /* Reduce dot size */
+    height: 8px;
+    margin: 3px; /* Reduce spacing between dots */
+    background-color: #000; /* Change color if needed */
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Active dot styling */
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color:black; /* Highlight color */
+  }
+ 
+  
