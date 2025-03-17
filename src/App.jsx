@@ -4,14 +4,14 @@ import Hero from "./components/Hero/Hero.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import "./index.css";
-import Login from "./components/login/login.jsx";
+// import { Login } from "./components/login/login.jsx";
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Login />
+      {/* <Login /> */}
       <Testimonials />
       <Footer />
     </div>
