@@ -98,10 +98,7 @@ const Hero = () => {
                   <div class="home-section-second-main-new-category-main-con">
                     <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
                       <div class="home-section-second-main-new-category-image-con">
-                        <img
-                          src="../../../public/Jodhpuri.jpeg"
-                          alt="Rajputana Sherwani"
-                        />
+                        <img src="/Jodhpuri.jpeg" alt="Rajputana Sherwani" />
                       </div>
                       <div class="home-section-second-main-new-category-details">
                         <div class="home-section-second-main-new-category-details-con">
@@ -251,7 +248,7 @@ const Hero = () => {
                                 <span>Jodhpuri</span>
                               </h3> */}
                                 <div class="home-section-first-main-new-category-con-image-details-btn-con">
-                                  <a class="card-product-shop-now">Shop Now</a>
+                                  {/* <a class="card-product-shop-now">Shop Now</a> */}
 
                                   <div class="clothCard-product-deatils-main-con">
                                     <span class="clothCard-product-title">
