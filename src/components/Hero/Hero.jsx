@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
+import img1 from "../../../public/Jodhpuri.jpeg";
 // import .
 // import
 const Hero = () => {
@@ -98,10 +99,7 @@ const Hero = () => {
                   <div class="home-section-second-main-new-category-main-con">
                     <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
                       <div class="home-section-second-main-new-category-image-con">
-                        <img
-                          src="../../../public/Jodhpuri.jpeg"
-                          alt="Rajputana Sherwani"
-                        />
+                        <img src={img1} alt="Rajputana Sherwani" />
                       </div>
                       <div class="home-section-second-main-new-category-details">
                         <div class="home-section-second-main-new-category-details-con">

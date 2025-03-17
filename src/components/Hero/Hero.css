@@ -538,6 +538,7 @@ h2, .home-section-head-main-con h3 {
 .section-icons-main {
     background-color: #faf5f2;
     padding: 8vh 0;
+    margin-top: 100px;
 }
 
 @media (min-width: 1400px) {
