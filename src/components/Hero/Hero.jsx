@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
-// import .
-// import
+import img1 from "../../../public/jodhpuri.jpeg";
 const Hero = () => {
   useEffect(() => {
     let isMuted = false;
@@ -98,7 +97,7 @@ const Hero = () => {
                   <div class="home-section-second-main-new-category-main-con">
                     <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
                       <div class="home-section-second-main-new-category-image-con">
-                        <img src="/Jodhpuri.jpeg" alt="Rajputana Sherwani" />
+                        <img src={img1} alt="Rajputana Sherwani" />
                       </div>
                       <div class="home-section-second-main-new-category-details">
                         <div class="home-section-second-main-new-category-details-con">
@@ -119,7 +118,7 @@ const Hero = () => {
                     <a href="/product-detail-page/black-color-jacket-indowestern-set">
                       <div class="home-section-second-main-new-category-main-con">
                         <div class="home-section-second-main-new-category-image-con">
-                          <img src="../../../public/Indowestern.jpeg" />
+                          <img src="/Indowestern.jpeg" />
                         </div>
                         <div class="home-section-second-main-new-category-details">
                           <div class="home-section-second-main-new-category-details-con">
@@ -141,7 +140,7 @@ const Hero = () => {
                     <a href="/product/t-shirt">
                       <div class="home-section-second-main-new-category-main-con">
                         <div class="home-section-second-main-new-category-image-con">
-                          <img src="../../../public/Kurtapyjama.jpeg" />
+                          <img src="/Kurtapyjama.jpeg" />
                         </div>
                         <div class="home-section-second-main-new-category-details">
                           <div class="home-section-second-main-new-category-details-con">
@@ -237,7 +236,7 @@ const Hero = () => {
                           <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
                             <div class="home-section-second-main-new-category-image-con">
                               <img
-                                src="../../../public/Jodhpuri.jpeg"
+                                src="/Jodhpuri.jpeg"
                                 alt="Rajputana Sherwani"
                               />
                             </div>
