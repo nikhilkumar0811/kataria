@@ -523,7 +523,13 @@ h2, .home-section-head-main-con h3 {
 
 
 
-
+.clothCard-product-detials-main-con-offer-per h4 {
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0 0;
+    text-align: center;
+}
 
 
 

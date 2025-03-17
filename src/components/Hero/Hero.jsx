@@ -1,18 +1,3 @@
-// import React from "react";
-// import "./Hero.css";
-
-// const Hero = () => {
-//   return (
-//     <div className="hero">
-//       <h2>Top Selling Collections</h2>
-//       <h3>SHOP BY CATEGORY</h3>
-//       <div className="hero-cards">{/* Add Category Cards here */}</div>
-//     </div>
-//   );
-// };
-
-// export default Hero;
-// import
 import React, { useEffect } from "react";
 import "./Hero.css";
 // import .
@@ -204,12 +189,13 @@ const Hero = () => {
         </div>
       </section>
       {/* 3rdsection */}
-      <section class="mt-2">
-        <div class="container">
-          <div class="home-section-head-main-con">
-            <h3 class="prodcut-head-name">Elevate Your Style</h3>
-          </div>
-          {/* <div class="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
+      <div>
+        <section class="mt-2">
+          <div class="container">
+            <div class="home-section-head-main-con">
+              <h3 class="prodcut-head-name">Elevate Your Style</h3>
+            </div>
+            {/* <div class="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
             <div
               class="swiper-wrapper"
               style={{
@@ -244,244 +230,253 @@ const Hero = () => {
             </div>
           </div> */}
 
-          <section class="home-section-new-home-category">
-            <div class="container">
-              <div class="home-section-new-home-details-con-main">
-                <div class="home-section-second-main-new-category-con">
-                  <div class="row">
-                    <div class="col-md-3 col-sm-6 col-6">
-                      <div class="home-section-second-main-new-category-main-con">
-                        <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
-                          <div class="home-section-second-main-new-category-image-con">
-                            <img
-                              src="../../../public/Jodhpuri.jpeg"
-                              alt="Rajputana Sherwani"
-                            />
-                          </div>
-                          <div class="home-section-second-main-new-category-details">
-                            <div class="home-section-second-main-new-category-details-con">
-                              {/* <h2>Jodhpuri</h2> */}
-                              {/* <h3>
+            <section class="home-section-new-home-category">
+              <div class="container">
+                <div class="home-section-new-home-details-con-main">
+                  <div class="home-section-second-main-new-category-con">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="home-section-second-main-new-category-main-con">
+                          <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
+                            <div class="home-section-second-main-new-category-image-con">
+                              <img
+                                src="../../../public/Jodhpuri.jpeg"
+                                alt="Rajputana Sherwani"
+                              />
+                            </div>
+                            <div class="home-section-second-main-new-category-details">
+                              <div class="home-section-second-main-new-category-details-con">
+                                {/* <h2>Jodhpuri</h2> */}
+                                {/* <h3>
                                 <span>Jodhpuri</span>
                               </h3> */}
-                              <div class="home-section-first-main-new-category-con-image-details-btn-con">
-                                <a class="card-product-shop-now">Shop Now</a>
+                                <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                  <a class="card-product-shop-now">Shop Now</a>
 
-                                <div class="clothCard-product-deatils-main-con">
-                                  <span class="clothCard-product-title">
-                                    MAROON COLOR KURTA WITH DUPATTA AND DAMAN
-                                    EMBROIDERY WORK.
-                                  </span>
-                                  <div class="clothCard-product-deatils-main-con-price">
-                                    <div class="clothCard-product-deatils-main-con-mainprice">
-                                      <label> RS. 6027 INR </label>
+                                  <div class="clothCard-product-deatils-main-con">
+                                    <span class="clothCard-product-title">
+                                      MAROON COLOR KURTA WITH DUPATTA AND DAMAN
+                                      EMBROIDERY WORK.
+                                    </span>
+                                    <div class="clothCard-product-deatils-main-con-price">
+                                      <div class="clothCard-product-deatils-main-con-mainprice">
+                                        <label> RS. 6027 INR </label>
+                                      </div>
+                                      <div class="clothCard-product-deatils-main-con-offerprice">
+                                        <label> RS. 8995 INR </label>
+                                      </div>
                                     </div>
-                                    <div class="clothCard-product-deatils-main-con-offerprice">
-                                      <label> RS. 8995 INR </label>
+                                    <div class="clothCard-product-detials-main-con-offer-per">
+                                      <h4>(33% OFF)</h4>
                                     </div>
-                                  </div>
-                                  <div class="clothCard-product-detials-main-con-offer-per">
-                                    <h4>(33% OFF)</h4>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                      <div class="home-section-second-main-new-category-main-con">
-                        <a href="/product-detail-page/black-color-jacket-indowestern-set">
-                          <div class="home-section-second-main-new-category-main-con">
-                            <div class="home-section-second-main-new-category-image-con">
-                              <img src="../../../public/Indowestern.jpeg" />
-                            </div>
-                            <div class="home-section-second-main-new-category-details">
-                              <div class="home-section-second-main-new-category-details-con">
-                                {/* <h2>Indowestern</h2> */}
-                                {/* <h3>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="home-section-second-main-new-category-main-con">
+                          <a href="/product-detail-page/black-color-jacket-indowestern-set">
+                            <div class="home-section-second-main-new-category-main-con">
+                              <div class="home-section-second-main-new-category-image-con">
+                                <img src="../public/Indowestern.jpeg" />
+                              </div>
+                              <div class="home-section-second-main-new-category-details">
+                                <div class="home-section-second-main-new-category-details-con">
+                                  {/* <h2>Indowestern</h2> */}
+                                  {/* <h3>
                                   <span>Indowestern</span>
                                 </h3> */}
-                                <div class="home-section-first-main-new-category-con-image-details-btn-con">
-                                  <a class="card-product-shop-now">Shop Now</a>
-                                  <div class="clothCard-product-deatils-main-con">
-                                    <span class="clothCard-product-title">
-                                      MAROON COLOR KURTA WITH DUPATTA AND DAMAN
-                                      EMBROIDERY WORK.
-                                    </span>
-                                    <div class="clothCard-product-deatils-main-con-price">
-                                      <div class="clothCard-product-deatils-main-con-mainprice">
-                                        <label> RS. 6027 INR </label>
+                                  <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                    <a class="card-product-shop-now">
+                                      Shop Now
+                                    </a>
+                                    <div class="clothCard-product-deatils-main-con">
+                                      <span class="clothCard-product-title">
+                                        MAROON COLOR KURTA WITH DUPATTA AND
+                                        DAMAN EMBROIDERY WORK.
+                                      </span>
+                                      <div class="clothCard-product-deatils-main-con-price">
+                                        <div class="clothCard-product-deatils-main-con-mainprice">
+                                          <label> RS. 6027 INR </label>
+                                        </div>
+                                        <div class="clothCard-product-deatils-main-con-offerprice">
+                                          <label> RS. 8995 INR </label>
+                                        </div>
                                       </div>
-                                      <div class="clothCard-product-deatils-main-con-offerprice">
-                                        <label> RS. 8995 INR </label>
+                                      <div class="clothCard-product-detials-main-con-offer-per">
+                                        <h4>(33% OFF)</h4>
                                       </div>
-                                    </div>
-                                    <div class="clothCard-product-detials-main-con-offer-per">
-                                      <h4>(33% OFF)</h4>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                      <div class="home-section-second-main-new-category-main-con">
-                        <a href="/product/t-shirt">
-                          <div class="home-section-second-main-new-category-main-con">
-                            <div class="home-section-second-main-new-category-image-con">
-                              <img src="../../../public/Kurtapyjama.jpeg" />
-                            </div>
-                            <div class="home-section-second-main-new-category-details">
-                              <div class="home-section-second-main-new-category-details-con">
-                                {/* <h2>Kurta Pyjama</h2> */}
-                                {/* <h3>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="home-section-second-main-new-category-main-con">
+                          <a href="/product/t-shirt">
+                            <div class="home-section-second-main-new-category-main-con">
+                              <div class="home-section-second-main-new-category-image-con">
+                                <img src="../public/Kurtapyjama.jpeg" />
+                              </div>
+                              <div class="home-section-second-main-new-category-details">
+                                <div class="home-section-second-main-new-category-details-con">
+                                  {/* <h2>Kurta Pyjama</h2> */}
+                                  {/* <h3>
                                   <span>Kurta Pyjama</span>
                                 </h3> */}
-                                <div class="home-section-first-main-new-category-con-image-details-btn-con">
-                                  <a class="card-product-shop-now">Shop Now</a>
-                                  <div class="clothCard-product-deatils-main-con">
-                                    <span class="clothCard-product-title">
-                                      MAROON COLOR KURTA WITH DUPATTA AND DAMAN
-                                      EMBROIDERY WORK.
-                                    </span>
-                                    <div class="clothCard-product-deatils-main-con-price">
-                                      <div class="clothCard-product-deatils-main-con-mainprice">
-                                        <label> RS. 6027 INR </label>
+                                  <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                    <a class="card-product-shop-now">
+                                      Shop Now
+                                    </a>
+                                    <div class="clothCard-product-deatils-main-con">
+                                      <span class="clothCard-product-title">
+                                        MAROON COLOR KURTA WITH DUPATTA AND
+                                        DAMAN EMBROIDERY WORK.
+                                      </span>
+                                      <div class="clothCard-product-deatils-main-con-price">
+                                        <div class="clothCard-product-deatils-main-con-mainprice">
+                                          <label> RS. 6027 INR </label>
+                                        </div>
+                                        <div class="clothCard-product-deatils-main-con-offerprice">
+                                          <label> RS. 8995 INR </label>
+                                        </div>
                                       </div>
-                                      <div class="clothCard-product-deatils-main-con-offerprice">
-                                        <label> RS. 8995 INR </label>
+                                      <div class="clothCard-product-detials-main-con-offer-per">
+                                        <h4>(33% OFF)</h4>
                                       </div>
-                                    </div>
-                                    <div class="clothCard-product-detials-main-con-offer-per">
-                                      <h4>(33% OFF)</h4>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                      <div class="home-section-second-main-new-category-main-con">
-                        <a href="/product-detail-page/teal-blue-color-velvet-kurta-with-long-jacket-set">
-                          <div class="home-section-second-main-new-category-main-con">
-                            <div class="home-section-second-main-new-category-image-con">
-                              <img src="../../../public/Kurtapyjamajacket.jpeg" />
-                            </div>
-                            <div class="home-section-second-main-new-category-details">
-                              <div class="home-section-second-main-new-category-details-con">
-                                {/* <h2>Kurta pyjama jacket</h2> */}
-                                {/* <h3>
+                      <div class="col-md-3 col-sm-6 col-6">
+                        <div class="home-section-second-main-new-category-main-con">
+                          <a href="/product-detail-page/teal-blue-color-velvet-kurta-with-long-jacket-set">
+                            <div class="home-section-second-main-new-category-main-con">
+                              <div class="home-section-second-main-new-category-image-con">
+                                <img src="/public/Kurtapyjamajacket.jpeg" />
+                              </div>
+                              <div class="home-section-second-main-new-category-details">
+                                <div class="home-section-second-main-new-category-details-con">
+                                  {/* <h2>Kurta pyjama jacket</h2> */}
+                                  {/* <h3>
                                   <span>Kurta pyjama jacket</span>
                                 </h3> */}
-                                <div class="home-section-first-main-new-category-con-image-details-btn-con">
-                                  <a class="card-product-shop-now">Shop Now</a>
-                                  <div class="clothCard-product-deatils-main-con">
-                                    <span class="clothCard-product-title">
-                                      MAROON COLOR KURTA WITH DUPATTA AND DAMAN
-                                      EMBROIDERY WORK.
-                                    </span>
-                                    <div class="clothCard-product-deatils-main-con-price">
-                                      <div class="clothCard-product-deatils-main-con-mainprice">
-                                        <label> RS. 6027 INR </label>
+                                  <div class="home-section-first-main-new-category-con-image-details-btn-con">
+                                    <a class="card-product-shop-now">
+                                      Shop Now
+                                    </a>
+                                    <div class="clothCard-product-deatils-main-con">
+                                      <span class="clothCard-product-title">
+                                        MAROON COLOR KURTA WITH DUPATTA AND
+                                        DAMAN EMBROIDERY WORK.
+                                      </span>
+                                      <div class="clothCard-product-deatils-main-con-price">
+                                        <div class="clothCard-product-deatils-main-con-mainprice">
+                                          <label> RS. 6027 INR </label>
+                                        </div>
+                                        <div class="clothCard-product-deatils-main-con-offerprice">
+                                          <label> RS. 8995 INR </label>
+                                        </div>
                                       </div>
-                                      <div class="clothCard-product-deatils-main-con-offerprice">
-                                        <label> RS. 8995 INR </label>
+                                      <div class="clothCard-product-detials-main-con-offer-per">
+                                        <h4>(33% OFF)</h4>
                                       </div>
-                                    </div>
-                                    <div class="clothCard-product-detials-main-con-offer-per">
-                                      <h4>(33% OFF)</h4>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </a>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-        </div>
-      </section>
-      <section class="section-icons-main">
-        <div class="container">
-          <div class="section-icons-main-details-con">
-            <div class="row">
-              <div class="col-3">
-                <div class="section-icons-details-main-con">
-                  <div class="section-icons-details-main-con-images">
-                    <div class="section-icons-details-con-images">
-                      <img
-                        src="/public/free-alteration.png"
-                        alt="free_alteration_at_store"
-                      />
+            </section>
+          </div>
+        </section>
+      </div>
+      <div class="free">
+        <section class="section-icons-main">
+          <div class="container">
+            <div class="section-icons-main-details-con">
+              <div class="row">
+                <div class="col-3">
+                  <div class="section-icons-details-main-con">
+                    <div class="section-icons-details-main-con-images">
+                      <div class="section-icons-details-con-images">
+                        <img
+                          src="/public/free-alteration.png"
+                          alt="free_alteration_at_store"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <div class="section-icons-details-info-main-con">
-                    <h3>free alteration at store</h3>
+                    <div class="section-icons-details-info-main-con">
+                      <h3>free alteration at store</h3>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-3">
-                <div class="section-icons-details-main-con">
-                  <div class="section-icons-details-main-con-images">
-                    <div class="section-icons-details-con-images">
-                      <img
-                        src="/public/premium-quality.png"
-                        alt="free_alteration_at_store"
-                      />
+                <div class="col-3">
+                  <div class="section-icons-details-main-con">
+                    <div class="section-icons-details-main-con-images">
+                      <div class="section-icons-details-con-images">
+                        <img
+                          src="/public/premium-quality.png"
+                          alt="free_alteration_at_store"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <div class="section-icons-details-info-main-con">
-                    <h3>premium quality</h3>
+                    <div class="section-icons-details-info-main-con">
+                      <h3>premium quality</h3>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-3">
-                <div class="section-icons-details-main-con">
-                  <div class="section-icons-details-main-con-images">
-                    <div class="section-icons-details-con-images">
-                      <img
-                        src="/public/designer-wear-brand.png"
-                        alt="free_alteration_at_store"
-                      />
+                <div class="col-3">
+                  <div class="section-icons-details-main-con">
+                    <div class="section-icons-details-main-con-images">
+                      <div class="section-icons-details-con-images">
+                        <img
+                          src="/public/designer-wear-brand.png"
+                          alt="free_alteration_at_store"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <div class="section-icons-details-info-main-con">
-                    <h3>designer wear brand</h3>
+                    <div class="section-icons-details-info-main-con">
+                      <h3>designer wear brand</h3>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-3">
-                <div class="section-icons-details-main-con">
-                  <div class="section-icons-details-main-con-images">
-                    <div class="section-icons-details-con-images">
-                      <img
-                        src="/public/download.png"
-                        alt="free_alteration_at_store"
-                      />
+                <div class="col-3">
+                  <div class="section-icons-details-main-con">
+                    <div class="section-icons-details-main-con-images">
+                      <div class="section-icons-details-con-images">
+                        <img
+                          src="/public/download.png"
+                          alt="free_alteration_at_store"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <div class="section-icons-details-info-main-con">
-                    <h3>secure payment</h3>
+                    <div class="section-icons-details-info-main-con">
+                      <h3>secure payment</h3>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <div>
         <section class="home-section-new-home-category">
           <div class="container">
