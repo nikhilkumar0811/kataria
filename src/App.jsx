@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Testimonials />
-      <Footer />y{" "}
+      <Footer />
     </div>
   );
 };
