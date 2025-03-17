@@ -74,7 +74,7 @@ const Footer = () => {
                   </div>
                   <div class="col-4">
                     <div class="footer-pat-icons-con">
-                      <img src="/src/mastercard.png" />
+                      <img src="/mastercard.png" />
                     </div>
                   </div>
                   <div class="col-4">
