@@ -4,7 +4,6 @@ import Hero from "./components/Hero/Hero.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import "./index.css";
-import { Link, Router } from "react-router-dom";
 
 const App = () => {
   return (
