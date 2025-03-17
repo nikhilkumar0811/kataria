@@ -59,32 +59,32 @@ const Footer = () => {
                 <div class="row">
                   <div class="col-4">
                     <div class="footer-pat-icons-con">
-                      <img src="/public/Visa-card.png" />
+                      <img src="/src/Visa-card.png" />
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="footer-pat-icons-con">
-                      <img src="/public/american_express.png" />
+                      <img src="/src/american_express.png" />
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="footer-pat-icons-con">
-                      <img src="/public/cod.png" />
+                      <img src="/src/cod.png" />
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="footer-pat-icons-con">
-                      <img src="/public/mastercard.png" />
+                      <img src="/src/mastercard.png" />
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="footer-pat-icons-con">
-                      <img src="/public/rupaypng.png" />
+                      <img src="/src/rupaypng.png" />
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="footer-pat-icons-con">
-                      <img src="/public/upi..png" />
+                      <img src="/src/upi..png" />
                     </div>
                   </div>
                 </div>

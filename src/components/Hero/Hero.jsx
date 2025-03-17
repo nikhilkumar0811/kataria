@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
-import img1 from "../../../public/jodhpuri.jpeg";
+
 const Hero = () => {
   useEffect(() => {
     let isMuted = false;
@@ -25,7 +25,7 @@ const Hero = () => {
     <div className="content">
       <div class="audio">
         <audio>
-          <source src="../../../public/demo.mp3" type="audio/mpeg"></source>
+          <source src="../../../src/demo.mp3" type="audio/mpeg"></source>
         </audio>
         <button>
           <svg
@@ -97,7 +97,7 @@ const Hero = () => {
                   <div class="home-section-second-main-new-category-main-con">
                     <a href="/product-detail-page/zig-zig-embroidery-work-jacket-jodhpuri">
                       <div class="home-section-second-main-new-category-image-con">
-                        <img src={img1} alt="Rajputana Sherwani" />
+                        <img src="/Jodhpuri.jpeg" alt="Rajputana Sherwani" />
                       </div>
                       <div class="home-section-second-main-new-category-details">
                         <div class="home-section-second-main-new-category-details-con">
@@ -118,7 +118,7 @@ const Hero = () => {
                     <a href="/product-detail-page/black-color-jacket-indowestern-set">
                       <div class="home-section-second-main-new-category-main-con">
                         <div class="home-section-second-main-new-category-image-con">
-                          <img src="/Indowestern.jpeg" />
+                          <img src="../../../src/Indowestern.jpeg" />
                         </div>
                         <div class="home-section-second-main-new-category-details">
                           <div class="home-section-second-main-new-category-details-con">
@@ -140,7 +140,7 @@ const Hero = () => {
                     <a href="/product/t-shirt">
                       <div class="home-section-second-main-new-category-main-con">
                         <div class="home-section-second-main-new-category-image-con">
-                          <img src="/Kurtapyjama.jpeg" />
+                          <img src="../../../src/Kurtapyjama.jpeg" />
                         </div>
                         <div class="home-section-second-main-new-category-details">
                           <div class="home-section-second-main-new-category-details-con">
@@ -162,7 +162,7 @@ const Hero = () => {
                     <a href="/product-detail-page/teal-blue-color-velvet-kurta-with-long-jacket-set">
                       <div class="home-section-second-main-new-category-main-con">
                         <div class="home-section-second-main-new-category-image-con">
-                          <img src="../../../public/Kurtapyjamajacket.jpeg" />
+                          <img src="../../../src/Kurtapyjamajacket.jpeg" />
                         </div>
                         <div class="home-section-second-main-new-category-details">
                           <div class="home-section-second-main-new-category-details-con">
@@ -277,7 +277,7 @@ const Hero = () => {
                           <a href="/product-detail-page/black-color-jacket-indowestern-set">
                             <div class="home-section-second-main-new-category-main-con">
                               <div class="home-section-second-main-new-category-image-con">
-                                <img src="../public/Indowestern.jpeg" />
+                                <img src="../src/Indowestern.jpeg" />
                               </div>
                               <div class="home-section-second-main-new-category-details">
                                 <div class="home-section-second-main-new-category-details-con">
@@ -318,7 +318,7 @@ const Hero = () => {
                           <a href="/product/t-shirt">
                             <div class="home-section-second-main-new-category-main-con">
                               <div class="home-section-second-main-new-category-image-con">
-                                <img src="../public/Kurtapyjama.jpeg" />
+                                <img src="../src/Kurtapyjama.jpeg" />
                               </div>
                               <div class="home-section-second-main-new-category-details">
                                 <div class="home-section-second-main-new-category-details-con">
@@ -359,7 +359,7 @@ const Hero = () => {
                           <a href="/product-detail-page/teal-blue-color-velvet-kurta-with-long-jacket-set">
                             <div class="home-section-second-main-new-category-main-con">
                               <div class="home-section-second-main-new-category-image-con">
-                                <img src="/public/Kurtapyjamajacket.jpeg" />
+                                <img src="/src/Kurtapyjamajacket.jpeg" />
                               </div>
                               <div class="home-section-second-main-new-category-details">
                                 <div class="home-section-second-main-new-category-details-con">
@@ -413,7 +413,7 @@ const Hero = () => {
                     <div class="section-icons-details-main-con-images">
                       <div class="section-icons-details-con-images">
                         <img
-                          src="/public/free-alteration.png"
+                          src="/src/free-alteration.png"
                           alt="free_alteration_at_store"
                         />
                       </div>
@@ -428,7 +428,7 @@ const Hero = () => {
                     <div class="section-icons-details-main-con-images">
                       <div class="section-icons-details-con-images">
                         <img
-                          src="/public/premium-quality.png"
+                          src="/src/premium-quality.png"
                           alt="free_alteration_at_store"
                         />
                       </div>
@@ -443,7 +443,7 @@ const Hero = () => {
                     <div class="section-icons-details-main-con-images">
                       <div class="section-icons-details-con-images">
                         <img
-                          src="/public/designer-wear-brand.png"
+                          src="/src/designer-wear-brand.png"
                           alt="free_alteration_at_store"
                         />
                       </div>
@@ -458,7 +458,7 @@ const Hero = () => {
                     <div class="section-icons-details-main-con-images">
                       <div class="section-icons-details-con-images">
                         <img
-                          src="/public/download.png"
+                          src="/src/download.png"
                           alt="free_alteration_at_store"
                         />
                       </div>
@@ -518,14 +518,14 @@ export default Hero;
                       <div
                         className="main-card-product relative"
                         style={{
-                          backgroundImage: `url("../../../public/Kurtapyjama.jpeg")`,
+                          backgroundImage: `url("../../../src/Kurtapyjama.jpeg")`,
                           width: "100%",
                           backgroundSize: "cover",
                           margin: "10px 0px",
                           backgroundPosition: "center center",
                         }}
                       >
-                        <img src="../../../public/Kurtapyjamajacket.jpeg" />
+                        <img src="../../../src/Kurtapyjamajacket.jpeg" />
 
                         <a class="card-product-shop-now">Shop Now</a>
                         <div class="clothCard-product-deatils-main-con">
