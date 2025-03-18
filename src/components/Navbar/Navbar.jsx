@@ -106,7 +106,7 @@ const Navbar = () => {
             <div className="menu-divider"></div>
 
             <ul className="menu-list">
-              <a href="/login">HOME</a>
+              <a href="/Hero">HOME</a>
               <div className="menu-divider"></div>
               <li>ALL PRODUCTS</li>
               <div className="menu-divider"></div>

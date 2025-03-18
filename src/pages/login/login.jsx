@@ -22,20 +22,20 @@ function LoginPage() {
                         <h1>Sign In</h1>
                         <nav class="ant-breadcrumb css-3rel02">
                           <ol>
-                            <ul>
+                            <li>
                               <span class="ant-breadcrumb-link">
                                 <a href="/">Home</a>
                               </span>
-                            </ul>
-                            <ul
+                            </li>
+                            <li
                               class="ant-breadcrumb-separator"
                               aria-hidden="true"
                             >
                               /
-                            </ul>
-                            <ul>
+                            </li>
+                            <li>
                               <span class="ant-breadcrumb-link">Sign In</span>
-                            </ul>
+                            </li>
                           </ol>
                         </nav>
                       </div>

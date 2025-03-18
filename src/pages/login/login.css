@@ -58,6 +58,16 @@
     color: var(--primeColor);
     font-size: 2rem;
 }
+
+
+:where(.css-3rel02).ant-breadcrumb ol {
+    display: flex
+;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 :where(.css-3rel02).ant-breadcrumb {
     box-sizing: border-box;
     margin: 0;
@@ -96,3 +106,115 @@
 
 
 
+:where(.css-3rel02).ant-breadcrumb .ant-breadcrumb-separator {
+    margin-inline: 8px;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+:where(.css-3rel02).ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+
+}
+
+
+
+
+:where(.css-3rel02).ant-form-item {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+:where(.css-3rel02).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-row {
+    flex-direction: column;
+}
+:where(.css-3rel02).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label, :where(.css-3rel02).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-24.ant-form-item-label, :where(.css-3rel02).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-col-xl-24.ant-form-item-label {
+    padding: 0 0 8px;
+    margin: 0;
+    white-space: initial;
+    text-align: start;
+}
+
+:where(.css-3rel02).ant-form-item .ant-form-item-label >label {
+    position: relative;
+    display: inline-flex
+;
+    align-items: center;
+    max-width: 100%;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+}
+
+:where(.css-3rel02).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-control {
+    width: 100%;
+}
+:where(.css-3rel02).ant-form-item .ant-form-item-control-input {
+    position: relative;
+    display: flex
+;
+    align-items: center;
+    min-height: 32px;
+}
+:where(.css-3rel02).ant-form-item .ant-form-item-control-input-content {
+    flex: auto;
+    max-width: 100%;
+}
+:where(.css-3rel02).ant-input-affix-wrapper {
+    position: relative;
+    display: inline-flex
+;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+:where(.css-3rel02).ant-form-vertical .ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-row {
+    flex-direction: column;
+}
+
+:where(.css-3rel02)[class^="ant-form"] [class^="ant-form"], :where(.css-3rel02)[class*=" ant-form"] [class^="ant-form"], :where(.css-3rel02)[class^="ant-form"] [class*=" ant-form"], :where(.css-3rel02)[class*=" ant-form"] [class*=" ant-form"] {
+    box-sizing: border-box;
+}
+:where(.css-3rel02).ant-row {
+    display: flex
+;
+    flex-flow: row wrap;
+    min-width: 0;
+}
+:where(.css-3rel02).ant-form-item .ant-form-item-control-input {
+    position: relative;
+    display: flex
+;
+    align-items: center;
+    min-height: 32px;
+}
+:where(.css-3rel02).ant-form-item .ant-form-item-control-input-content {
+    flex: auto;
+    max-width: 100%;
+}
+.account-card .login-form-button {
+    background-color: #2d3192;
+    color: #fff;
+    height: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.account-card a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
