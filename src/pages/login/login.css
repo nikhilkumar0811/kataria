@@ -1,0 +1,98 @@
+.content {
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+.login-page {
+    align-items: center;
+    display: flex
+;
+    height: 100vh;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* @media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+} */
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-top: calc(var(--bs-gutter-y)* -1);
+}
+.px-5 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+/* @media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+} */
+.widthimage {
+    width: 100%;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.account-card {
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px grey;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+}
+.account-card .title {
+    margin: 25px 0;
+}
+.account-card .title h1 {
+    color: var(--primeColor);
+    font-size: 2rem;
+}
+:where(.css-3rel02).ant-breadcrumb {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+}
+:where(.css-3rel02).ant-breadcrumb [class^="ant-breadcrumb"], :where(.css-3rel02).ant-breadcrumb [class*=" ant-breadcrumb"] {
+    box-sizing: border-box;
+}
+:where(.css-3rel02).ant-breadcrumb .ant-breadcrumb-separator {
+    margin-inline: 8px;
+
+}
+
+:where(.css-3rel02).ant-breadcrumb ul:last-child {
+    color: rgba(0, 0, 0, 0.88);
+}
+:where(.css-3rel02).ant-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+
+
+
+
