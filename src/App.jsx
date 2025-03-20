@@ -27,6 +27,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import LoginPage from "./pages/login/login.jsx";
 import "./index.css";
 import Home from "./pages/home.jsx";
+import Product from "./pages/product/product.jsx";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
         <Routes>
           <Route path="/Hero" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/product" element={<Product />} />
         </Routes>
         <Footer />
       </div>

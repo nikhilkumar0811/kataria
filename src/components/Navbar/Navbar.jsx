@@ -108,7 +108,7 @@ const Navbar = () => {
             <ul className="menu-list">
               <a href="/Hero">HOME</a>
               <div className="menu-divider"></div>
-              <li>ALL PRODUCTS</li>
+              <a href="/product">ALL PRODUCTS</a>
               <div className="menu-divider"></div>
               <div className="jod ">
                 <li>-JODHPURI</li>
