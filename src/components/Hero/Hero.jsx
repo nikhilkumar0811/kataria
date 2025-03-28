@@ -281,10 +281,6 @@ const Hero = () => {
                               </div>
                               <div class="home-section-second-main-new-category-details">
                                 <div class="home-section-second-main-new-category-details-con">
-                                  {/* <h2>Indowestern</h2> */}
-                                  {/* <h3>
-                                  <span>Indowestern</span>
-                                </h3> */}
                                   <div class="home-section-first-main-new-category-con-image-details-btn-con">
                                     <a class="card-product-shop-now">
                                       Shop Now
