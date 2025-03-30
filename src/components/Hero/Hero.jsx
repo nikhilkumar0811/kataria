@@ -21,7 +21,6 @@ const Hero = () => {
   }, []);
 
   return (
-    // <div className="hero-section">
     <div className="content">
       <div class="audio">
         <audio>
