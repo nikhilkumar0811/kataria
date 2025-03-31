@@ -4,7 +4,6 @@ import "./Navbar.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
-// import { Login } from "../login/login.jsx";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
