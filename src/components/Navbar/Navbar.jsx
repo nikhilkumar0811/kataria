@@ -16,7 +16,7 @@ const Navbar = () => {
 
   const handleLoginClick = () => {
     navigate("/login");
-    setIsMenuOpen(false); // Close menu after navigation
+    setIsMenuOpen(false);
   };
 
   return (
