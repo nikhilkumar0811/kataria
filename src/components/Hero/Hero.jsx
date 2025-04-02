@@ -10,7 +10,6 @@ const Hero = () => {
     const toggleSound = () => {
       isMuted = !isMuted;
       soundIcon.src = isMuted ? "mute-icon.png" : "unmute-icon.png";
-      // Code to mute/unmute music goes here
     };
 
     soundToggle.addEventListener("click", toggleSound);
