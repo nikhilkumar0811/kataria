@@ -41,8 +41,6 @@ const Hero = () => {
         </button>
       </div>
       <section class="new-home-banner-section">
-        {/* <a href="/collections/kurta-pajama-for-men"> */}
-
         <div class="new-home-banner-main-con">
           <div class="new-home-banner-main-con-text-main-con">
             <h2>Katarias</h2>
