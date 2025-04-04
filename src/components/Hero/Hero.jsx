@@ -187,40 +187,6 @@ const Hero = () => {
             <div class="home-section-head-main-con">
               <h3 class="prodcut-head-name">Elevate Your Style</h3>
             </div>
-            {/* <div class="swiper swiper-initialized swiper-horizontal mySwiper swiper-backface-hidden">
-            <div
-              class="swiper-wrapper"
-              style={{
-                transform: "translate3d(0px, 0px, 0px)",
-              }}
-            >
-              <div
-                class="swiper-slide swiper-slide-active"
-                style={{
-                  width: "286.5px",
-                  marginRight: "50px",
-                }}
-              >
-                <a href="/product-detail-page/maroon-color-kurta-with-dupatta-daman-embroidery-work">
-                  <div class="producct-main-card-body-con">
-                    <div class="producct-main-card-body">
-                      <div
-                        class="main-card-product reletive"
-                        style={{
-                          backgroundImage:
-                            "url('https://skdm.in/server/kataria/api/upload/zz1.avif')",
-                          width: "100%",
-                          backgroundSize: "cover",
-                          margin: "10px 0px",
-                          backgroundPosition: "center center",
-                        }}
-                      ></div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div> */}
 
             <section class="home-section-new-home-category">
               <div class="container">
