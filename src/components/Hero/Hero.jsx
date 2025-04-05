@@ -204,13 +204,7 @@ const Hero = () => {
                             </div>
                             <div class="home-section-second-main-new-category-details">
                               <div class="home-section-second-main-new-category-details-con">
-                                {/* <h2>Jodhpuri</h2> */}
-                                {/* <h3>
-                                <span>Jodhpuri</span>
-                              </h3> */}
                                 <div class="home-section-first-main-new-category-con-image-details-btn-con">
-                                  {/* <a class="card-product-shop-now">Shop Now</a> */}
-
                                   <div class="clothCard-product-deatils-main-con">
                                     <span class="clothCard-product-title">
                                       MAROON COLOR KURTA WITH DUPATTA AND DAMAN
