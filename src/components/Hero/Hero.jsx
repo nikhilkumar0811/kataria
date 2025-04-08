@@ -456,30 +456,4 @@ const Hero = () => {
 
 export default Hero;
 {
-  /* <a href="/product-detail-page/maroon-color-kurta-with-dupatta-daman-embroidery-work">
-                  <div class="producct-main-card-body-con">
-                    <div class="producct-main-card-body">
-                      <div
-                        className="main-card-product relative"
-                        style={{
-                          backgroundImage: `url("../../../src/Kurtapyjama.jpeg")`,
-                          width: "100%",
-                          backgroundSize: "cover",
-                          margin: "10px 0px",
-                          backgroundPosition: "center center",
-                        }}
-                      >
-                        <img src="../../../src/Kurtapyjamajacket.jpeg" />
-
-                        <a class="card-product-shop-now">Shop Now</a>
-                        <div class="clothCard-product-deatils-main-con">
-                          <span class="clothCard-product-title">
-                            MAROON COLOR KURTA WITH DUPATTA AND DAMAN EMBROIDERY
-                            WORK.
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a> */
 }
