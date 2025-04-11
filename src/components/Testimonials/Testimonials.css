@@ -141,7 +141,6 @@ p {
     transition: opacity 0.3s ease;
   }
   
-  /* Active dot styling */
   .swiper-pagination-bullet-active {
     opacity: 1;
     background-color:black; /* Highlight color */
