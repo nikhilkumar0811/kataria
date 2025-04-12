@@ -128,7 +128,7 @@ p {
 /* Style for Swiper pagination */
 .swiper-pagination {
     margin-top: 100px; 
-    margin: bottom 100px; ;/* Reduce space between content and pagination */
+    margin: bottom 100px; 
   }
   
   /* Adjust size of pagination dots if needed */
