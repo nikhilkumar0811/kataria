@@ -143,7 +143,7 @@ p {
   
   .swiper-pagination-bullet-active {
     opacity: 1;
-    background-color:black; /* Highlight color */
+    background-color:black; 
   }
  
   
